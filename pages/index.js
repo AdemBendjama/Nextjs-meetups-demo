@@ -1,6 +1,6 @@
 import MeetupList from '@/components/meetups/MeetupList'
 import React from 'react'
-//! Server-Side Import
+//! Server-Side Imports
 import { MongoClient, ServerApiVersion } from "mongodb";
 
 function HomePage(props) {
