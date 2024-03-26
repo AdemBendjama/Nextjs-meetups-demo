@@ -3,7 +3,7 @@ import React from 'react'
 //! Server-Side Imports
 import { MongoClient, ServerApiVersion } from "mongodb";
 
-git function HomePage(props) {
+function HomePage(props) {
     return (
         <>
             <MeetupList meetups={props.meetups} />
