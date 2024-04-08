@@ -1,5 +1,7 @@
 # Dependency directories
 node_modules/
+.pnpm/
+.pnp/
 
 # Next.js build output
 .next/
@@ -16,6 +18,7 @@ node_modules/
 
 # Package manager lock files
 package-lock.json
+.pnpm-lock.yaml
 
 # Test coverage reports
 coverage/
