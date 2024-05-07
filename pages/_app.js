@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
         <meta description='Find and join public meetups near you! Explore detailed event information, discover new opportunities, and create your own meetups. Start connecting with like-minded individuals today!' />
       </Head>
       <Layout>
+        <SpeedInsights />
         <Component {...pageProps} />
       </Layout>
     </>
